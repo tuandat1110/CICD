@@ -34,7 +34,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: tuandat1110/it4409-sample:staging
+          tags: tuandat1110/it4409-sample:1.1
 
   deploy:
     name: Deploy to Server
